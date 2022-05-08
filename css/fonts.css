@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('../fonts/OpenSans-Medium.woff') format('woff'),
+        url('../fonts/OpenSans-Medium.ttf') format('truetype'),
+        url('../fonts/OpenSans-Medium.svg#OpenSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peddana';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/Peddana.woff2') format('woff2'),
+        url('../fonts/Peddana.woff') format('woff'),
+        url('../fonts/Peddana.ttf') format('truetype'),
+        url('../fonts/Peddana.svg#Peddana') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
