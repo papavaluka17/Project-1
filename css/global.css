@@ -139,7 +139,7 @@ a {
           box-sizing: border-box;
 }
 
-header > .container, .s-1 > .Dependent, .s-2 > .container {
+header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -265,6 +265,12 @@ header > .container > .header-box > .register > button:hover {
   margin-top: 250px;
 }
 
+.s-2 > .container {
+  padding: 20px 20px;
+  -webkit-box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+          box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+}
+
 .s-2 > .container > .first-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,7 +350,178 @@ header > .container > .header-box > .register > button:hover {
           flex-direction: column;
 }
 
-.s-2 > .container > .first-box > .soc-icon > img {
+.s-2 > .container > .first-box > .soc-icon > a > img {
   margin-bottom: 20px;
+}
+
+.s-2 > .container > .text-box {
+  margin-top: 60px;
+}
+
+.s-2 > .container > .text-box > p {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  opacity: 80%;
+  line-height: 2;
+}
+
+.s-3 {
+  margin-top: 60px;
+}
+
+.s-3 > .container {
+  -webkit-box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+          box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+}
+
+.s-3 > .container > .course {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-3 > .container > .course > h4 {
+  font-size: 80px;
+  font-weight: bold;
+  opacity: 15%;
+}
+
+.s-3 > .container > .course > .course2 {
+  position: absolute;
+}
+
+.s-3 > .container > .course > .course2 > h5 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.s-3 > .container > .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-3 > .container > .content-wrapper > .content > p {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2;
+  opacity: 80%;
+}
+
+.s-4 {
+  margin-top: 70px;
+}
+
+.s-4 > .container {
+  -webkit-box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+          box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+}
+
+.s-4 > .container > .course {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-4 > .container > .course > h4 {
+  font-size: 80px;
+  font-weight: bold;
+  opacity: 15%;
+}
+
+.s-4 > .container > .course > .course2 {
+  position: absolute;
+}
+
+.s-4 > .container > .course > .course2 > h5 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.s-4 > .container > .information {
+  margin-top: 40px;
+}
+
+.s-4 > .container > .information > .info {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-4 > .container > .information > .info > span {
+  border-left: 4px black solid;
+  display: block;
+  height: 25px;
+  margin-left: -60px;
+}
+
+.s-4 > .container > .information > .info > h5 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-left: -96px;
+}
+
+.s-4 > .container > .information > .info > h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.s-4 > .container > .information > .info > h6 > img {
+  margin-right: 10px;
+}
+
+.s-4 > .container > .information > .user {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-4 > .container > .information > .user > p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2;
 }
 /*# sourceMappingURL=global.css.map */
