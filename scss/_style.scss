@@ -239,6 +239,7 @@ header {
 
   & > .container {
     @extend %container;
+    padding-bottom: 40px;
     box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
 
     & > .course {
@@ -269,7 +270,7 @@ header {
       margin-top: 40px;
 
       & > .info {
-          margin-top: 60px;
+        margin-top: 60px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -306,11 +307,71 @@ header {
         justify-content: space-around;
         align-items: center;
 
-        & > p{
-            font-size: 14px;
-            font-family: "Open Sans", sans-serif;
-            line-height: 2;
+        & > p {
+          font-size: 14px;
+          font-family: "Open Sans", sans-serif;
+          line-height: 2;
+        }
+      }
+    }
+  }
+}
 
+.s-5 {
+  margin-top: 100px;
+
+  & > .container {
+    @extend %container;
+    box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+
+    & > .course {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & > h4 {
+        font-size: 90px;
+        font-weight: bold;
+        opacity: 15%;
+      }
+
+      & > .course2 {
+        position: absolute;
+
+        & > h5 {
+          color: $main-color2;
+          font-size: 25px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+
+    & > .masters1 {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      & > .master {
+        width: 200px;
+
+        & > .img {
+          width: 100%;
+        }
+
+        & > h4 {
+          font-size: 19px;
+          font-weight: bold;
+          font-family: "Open Sans", sans-serif;
+          margin-top: 18px;
+        }
+
+        & > p {
+          font-size: 17px;
+          margin-top: 10px;
+          color: #707070;
         }
       }
     }

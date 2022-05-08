@@ -139,7 +139,7 @@ a {
           box-sizing: border-box;
 }
 
-header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container {
+header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container, .s-5 > .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -428,6 +428,7 @@ header > .container > .header-box > .register > button:hover {
 }
 
 .s-4 > .container {
+  padding-bottom: 40px;
   -webkit-box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
           box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
 }
@@ -523,5 +524,76 @@ header > .container > .header-box > .register > button:hover {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   line-height: 2;
+}
+
+.s-5 {
+  margin-top: 100px;
+}
+
+.s-5 > .container {
+  -webkit-box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+          box-shadow: 1px 21px 19px -6px rgba(0, 0, 0, 0.33);
+}
+
+.s-5 > .container > .course {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-5 > .container > .course > h4 {
+  font-size: 90px;
+  font-weight: bold;
+  opacity: 15%;
+}
+
+.s-5 > .container > .course > .course2 {
+  position: absolute;
+}
+
+.s-5 > .container > .course > .course2 > h5 {
+  color: #000000;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.s-5 > .container > .masters1 {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.s-5 > .container > .masters1 > .master {
+  width: 200px;
+}
+
+.s-5 > .container > .masters1 > .master > .img {
+  width: 100%;
+}
+
+.s-5 > .container > .masters1 > .master > h4 {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 18px;
+}
+
+.s-5 > .container > .masters1 > .master > p {
+  font-size: 17px;
+  margin-top: 10px;
+  color: #707070;
 }
 /*# sourceMappingURL=global.css.map */
