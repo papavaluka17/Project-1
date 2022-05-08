@@ -138,4 +138,213 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+header > .container, .s-1 > .Dependent, .s-2 > .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #101010;
+}
+
+header > .container {
+  padding: 20px;
+}
+
+header > .container > .header-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header > .container > .header-box > nav {
+  width: 800px;
+}
+
+header > .container > .header-box > nav > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header > .container > .header-box > nav > ul > li > a {
+  color: #FFFFFF;
+  font-family: "Peddana", serif;
+  font-size: 21px;
+}
+
+header > .container > .header-box > nav > ul > li > a:hover {
+  font-size: 25px;
+}
+
+header > .container > .header-box > .register > button {
+  width: 130px;
+  border: none;
+  border-radius: 17px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #2e2b2b;
+  cursor: pointer;
+}
+
+header > .container > .header-box > .register > button:hover {
+  -webkit-box-shadow: 2px 6px 35px 1px rgba(71, 56, 56, 0.52);
+          box-shadow: 2px 6px 35px 1px rgba(71, 56, 56, 0.52);
+  padding: 11px;
+}
+
+.s-1 {
+  background-color: #101010;
+  height: 500px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.s-1 > .Dependent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 45px 25px;
+  height: 650px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 21px 19px 1px rgba(0, 0, 0, 0.41);
+          box-shadow: 1px 21px 19px 1px rgba(0, 0, 0, 0.41);
+}
+
+.s-1 > .Dependent > .course-info > h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 36px;
+}
+
+.s-1 > .Dependent > .course-info > h3 {
+  font-size: 35px;
+  color: #8d8d8d;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  opacity: 50%;
+  margin-bottom: 120px;
+}
+
+.s-1 > .Dependent > .course-info > p {
+  font-size: 20px;
+  color: #000000;
+  line-height: 2.4;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 70px;
+}
+
+.s-1 > .Dependent > .course-info > button {
+  width: 300px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #F36732;
+  cursor: pointer;
+}
+
+.s-2 {
+  margin-top: 250px;
+}
+
+.s-2 > .container > .first-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.s-2 > .container > .first-box > .box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  height: 300px;
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+.s-2 > .container > .first-box > .box > .img-box {
+  position: absolute;
+  bottom: 10px;
+  right: 18px;
+}
+
+.s-2 > .container > .first-box > .text {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-2 > .container > .first-box > .text > h4 {
+  font-size: 100px;
+  font-weight: bold;
+  opacity: 10%;
+}
+
+.s-2 > .container > .first-box > .text > .text2 {
+  position: absolute;
+}
+
+.s-2 > .container > .first-box > .text > .text2 > h5 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.s-2 > .container > .first-box > .soc-icon {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.s-2 > .container > .first-box > .soc-icon > img {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=global.css.map */
