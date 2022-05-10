@@ -356,6 +356,7 @@ header {
 
       & > .master {
         width: 200px;
+        margin-bottom: 30px;
 
         & > .img {
           width: 100%;
@@ -433,6 +434,7 @@ header {
 
   & > .container {
     @extend %container;
+    margin-bottom: 100px;
 
     & > .course {
       position: relative;
@@ -505,10 +507,10 @@ header {
           margin-top: 20px;
         }
 
-        & > p{
+        & > p {
           font-size: 14px;
           color: $main-color1;
-          margin-top: 15px
+          margin-top: 15px;
         }
 
         & > button {
@@ -526,20 +528,19 @@ header {
   }
 }
 
-
-.s-8{
+.s-8 {
   background-color: black;
   margin-top: 70px;
   padding: 40px 0;
 
-  & > .container{
+  & > .container {
     @extend %container;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    & > .request{
-      & > h4{
+    & > .request {
+      & > h4 {
         font-size: 34px;
         color: $main-color1;
         font-weight: bold;
@@ -547,16 +548,15 @@ header {
         margin-bottom: 25px;
       }
 
-      & > p{
+      & > p {
         font-size: 14px;
         color: $main-color1;
         font-family: "Open Sans", sans-serif;
         margin-bottom: 30px;
       }
 
-      & > form{
-
-        & > input{
+      & > form {
+        & > input {
           width: 400px;
           padding: 10px;
           border: none;
@@ -565,33 +565,164 @@ header {
           background-color: #707070;
           margin-bottom: 30px;
 
-          &::placeholder{
+          &::placeholder {
             color: white;
           }
         }
       }
 
-      & > h6{
-        color: #ACACAC;
+      & > h6 {
+        color: #acacac;
         display: flex;
         align-items: center;
       }
     }
 
-    & > .img-box{
+    & > .img-box {
       width: 50%;
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
 
-      & > img{
+      & > img {
         width: 100%;
       }
 
-      & > .img-box2{
+      & > .img-box2 {
         position: absolute;
       }
+    }
+  }
+}
+
+.s-9 {
+  margin-top: 100px;
+
+  & > .container {
+    @extend %container;
+
+    & > .course {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+
+      & > h4 {
+        font-size: 90px;
+        font-weight: bold;
+        opacity: 15%;
+      }
+
+      & > .course2 {
+        position: absolute;
+
+        & > h5 {
+          color: $main-color2;
+          font-size: 25px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+
+    & > .coursestart {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 40px;
+
+      & > h6 {
+        font-size: 28px;
+        color: $main-color2;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+      }
+
+      & > span {
+        opacity: 50%;
+        width: 400px;
+        border-bottom: 2px dashed black;
+      }
+    }
+
+    & > form {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 40px;
+
+      & > input {
+        font-size: 22px;
+        width: 38%;
+        padding: 15px;
+        outline: none;
+        border: none;
+        box-shadow: -1px 13px 53px -15px rgba(0, 0, 0, 0.45);
+      }
+    }
+
+    & > .days{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+
+      & > .number{
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+      }
+
+      & > h4{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        margin-right: 20px;
+      }
+
+      & > button{
+        width: 170px;
+        padding: 9px;
+        border: none;
+        border-radius: 15px;
+        background-color: $button-color;
+        color: $main-color1;
+        font-family: "Open Sans", sans-serif;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+footer{
+  margin-top: 120px;
+  padding: 20px;
+
+  & > .container{
+    @extend %container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > .soc-icon{
+      & > a {
+        margin-right: 20px;
+      }
+    }
+
+    & > p > a{
+      font-size: 18px;
+      color: $main-color2;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold;
     }
   }
 }
