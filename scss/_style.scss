@@ -377,3 +377,221 @@ header {
     }
   }
 }
+
+.s-6 {
+  margin-top: 100px;
+
+  & > .container {
+    @extend %container;
+
+    & > .course {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+
+      & > h4 {
+        font-size: 90px;
+        font-weight: bold;
+        opacity: 15%;
+        letter-spacing: 30px;
+      }
+
+      & > .course2 {
+        position: absolute;
+
+        & > h5 {
+          color: $main-color2;
+          font-size: 25px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+
+    & > .FAQ {
+      display: flex;
+      flex-direction: column;
+
+      & > button {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: -1px 13px 16px -15px rgba(0, 0, 0, 0.45);
+      }
+    }
+  }
+}
+
+.s-7 {
+  margin-top: 80px;
+
+  & > .container {
+    @extend %container;
+
+    & > .course {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+
+      & > h4 {
+        font-size: 90px;
+        font-weight: bold;
+        opacity: 15%;
+      }
+
+      & > .course2 {
+        position: absolute;
+
+        & > h5 {
+          color: $main-color2;
+          font-size: 25px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+
+    & > .coursefee {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      & > .achivements {
+        & > h4 {
+          font-size: 22px;
+          color: $main-color2;
+          font-weight: bold;
+          font-family: "Open Sans", sans-serif;
+          margin-bottom: 25px;
+        }
+
+        & > h6 {
+          display: flex;
+          align-items: center;
+          margin-top: 20px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 14px;
+
+          & > img {
+            margin-right: 15px;
+          }
+        }
+      }
+
+      & > .fee {
+        width: 300px;
+        height: 200px;
+        background-color: $main-color2;
+        border-radius: 20px;
+        text-align: center;
+
+        & > h4 {
+          color: $main-color1;
+          font-size: 18px;
+          margin-top: 30px;
+        }
+
+        & > h5 {
+          color: $main-color1;
+          font-size: 22px;
+          margin-top: 20px;
+        }
+
+        & > p{
+          font-size: 14px;
+          color: $main-color1;
+          margin-top: 15px
+        }
+
+        & > button {
+          width: 160px;
+          border-radius: 20px;
+          font-family: "Open Sans", sans-serif;
+          padding: 8px;
+          margin-top: 18px;
+          color: $main-color1;
+          background-color: $button-color;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+
+.s-8{
+  background-color: black;
+  margin-top: 70px;
+  padding: 40px 0;
+
+  & > .container{
+    @extend %container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > .request{
+      & > h4{
+        font-size: 34px;
+        color: $main-color1;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 25px;
+      }
+
+      & > p{
+        font-size: 14px;
+        color: $main-color1;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 30px;
+      }
+
+      & > form{
+
+        & > input{
+          width: 400px;
+          padding: 10px;
+          border: none;
+          outline: none;
+          border-radius: 20px;
+          background-color: #707070;
+          margin-bottom: 30px;
+
+          &::placeholder{
+            color: white;
+          }
+        }
+      }
+
+      & > h6{
+        color: #ACACAC;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    & > .img-box{
+      width: 50%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & > img{
+        width: 100%;
+      }
+
+      & > .img-box2{
+        position: absolute;
+      }
+    }
+  }
+}

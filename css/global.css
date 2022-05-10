@@ -139,10 +139,16 @@ a {
           box-sizing: border-box;
 }
 
-header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container, .s-5 > .container {
+header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container, .s-5 > .container, .s-6 > .container, .s-7 > .container, .s-8 > .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+  header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container, .s-5 > .container, .s-6 > .container, .s-7 > .container, .s-8 > .container {
+    width: 90%;
+  }
 }
 
 header {
@@ -595,5 +601,265 @@ header > .container > .header-box > .register > button:hover {
   font-size: 17px;
   margin-top: 10px;
   color: #707070;
+}
+
+.s-6 {
+  margin-top: 100px;
+}
+
+.s-6 > .container > .course {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.s-6 > .container > .course > h4 {
+  font-size: 90px;
+  font-weight: bold;
+  opacity: 15%;
+  letter-spacing: 30px;
+}
+
+.s-6 > .container > .course > .course2 {
+  position: absolute;
+}
+
+.s-6 > .container > .course > .course2 > h5 {
+  color: #000000;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.s-6 > .container > .FAQ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.s-6 > .container > .FAQ > button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px 13px 16px -15px rgba(0, 0, 0, 0.45);
+          box-shadow: -1px 13px 16px -15px rgba(0, 0, 0, 0.45);
+}
+
+.s-7 {
+  margin-top: 80px;
+}
+
+.s-7 > .container > .course {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.s-7 > .container > .course > h4 {
+  font-size: 90px;
+  font-weight: bold;
+  opacity: 15%;
+}
+
+.s-7 > .container > .course > .course2 {
+  position: absolute;
+}
+
+.s-7 > .container > .course > .course2 > h5 {
+  color: #000000;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.s-7 > .container > .coursefee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-7 > .container > .coursefee > .achivements > h4 {
+  font-size: 22px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+
+.s-7 > .container > .coursefee > .achivements > h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.s-7 > .container > .coursefee > .achivements > h6 > img {
+  margin-right: 15px;
+}
+
+.s-7 > .container > .coursefee > .fee {
+  width: 300px;
+  height: 200px;
+  background-color: #000000;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.s-7 > .container > .coursefee > .fee > h4 {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.s-7 > .container > .coursefee > .fee > h5 {
+  color: #FFFFFF;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.s-7 > .container > .coursefee > .fee > p {
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+.s-7 > .container > .coursefee > .fee > button {
+  width: 160px;
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding: 8px;
+  margin-top: 18px;
+  color: #FFFFFF;
+  background-color: #F36732;
+  cursor: pointer;
+}
+
+.s-8 {
+  background-color: black;
+  margin-top: 70px;
+  padding: 40px 0;
+}
+
+.s-8 > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-8 > .container > .request > h4 {
+  font-size: 34px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+
+.s-8 > .container > .request > p {
+  font-size: 14px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+
+.s-8 > .container > .request > form > input {
+  width: 400px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: #707070;
+  margin-bottom: 30px;
+}
+
+.s-8 > .container > .request > form > input::-webkit-input-placeholder {
+  color: white;
+}
+
+.s-8 > .container > .request > form > input:-ms-input-placeholder {
+  color: white;
+}
+
+.s-8 > .container > .request > form > input::-ms-input-placeholder {
+  color: white;
+}
+
+.s-8 > .container > .request > form > input::placeholder {
+  color: white;
+}
+
+.s-8 > .container > .request > h6 {
+  color: #ACACAC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-8 > .container > .img-box {
+  width: 50%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-8 > .container > .img-box > img {
+  width: 100%;
+}
+
+.s-8 > .container > .img-box > .img-box2 {
+  position: absolute;
 }
 /*# sourceMappingURL=global.css.map */
