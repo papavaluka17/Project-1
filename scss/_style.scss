@@ -30,19 +30,21 @@ header {
       }
 
       & > .register {
-        & > button {
-          width: 130px;
-          border: none;
-          border-radius: 17px;
-          padding: 10px;
+        width: 150px;
+        border: none;
+        border-radius: 17px;
+        padding: 10px;
+        color: $main-color1;
+        background-color: #2e2b2b;
+        cursor: pointer;
+        text-align: center;
+        & > a {
           color: $main-color1;
-          background-color: #2e2b2b;
-          cursor: pointer;
+        }
 
-          &:hover {
-            box-shadow: 2px 6px 35px 1px rgba(71, 56, 56, 0.52);
-            padding: 11px;
-          }
+        &:hover {
+          box-shadow: 2px 6px 35px 1px rgba(71, 56, 56, 0.52);
+          padding: 11px;
         }
       }
     }
@@ -662,13 +664,13 @@ header {
       }
     }
 
-    & > .days{
+    & > .days {
       display: flex;
       justify-content: center;
       align-items: center;
       margin-bottom: 50px;
 
-      & > .number{
+      & > .number {
         margin-right: 15px;
         width: 40px;
         height: 40px;
@@ -680,14 +682,14 @@ header {
         color: white;
       }
 
-      & > h4{
+      & > h4 {
         font-size: 30px;
         font-weight: bold;
         font-family: "Open Sans", sans-serif;
         margin-right: 20px;
       }
 
-      & > button{
+      & > button {
         width: 170px;
         padding: 9px;
         border: none;
@@ -701,24 +703,23 @@ header {
   }
 }
 
-
-footer{
+footer {
   margin-top: 120px;
   padding: 20px;
 
-  & > .container{
+  & > .container {
     @extend %container;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    & > .soc-icon{
+    & > .soc-icon {
       & > a {
         margin-right: 20px;
       }
     }
 
-    & > p > a{
+    & > p > a {
       font-size: 18px;
       color: $main-color2;
       font-family: "Open Sans", sans-serif;

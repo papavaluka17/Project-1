@@ -139,16 +139,104 @@ a {
           box-sizing: border-box;
 }
 
-header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container, .s-5 > .container, .s-6 > .container, .s-7 > .container, .s-8 > .container, .s-9 > .container, footer > .container {
+.background > .container, header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container, .s-5 > .container, .s-6 > .container, .s-7 > .container, .s-8 > .container, .s-9 > .container, footer > .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
 
 @media (max-width: 1100px) {
-  header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container, .s-5 > .container, .s-6 > .container, .s-7 > .container, .s-8 > .container, .s-9 > .container, footer > .container {
+  .background > .container, header > .container, .s-1 > .Dependent, .s-2 > .container, .s-3 > .container, .s-4 > .container, .s-5 > .container, .s-6 > .container, .s-7 > .container, .s-8 > .container, .s-9 > .container, footer > .container {
     width: 90%;
   }
+}
+
+.background {
+  background-image: url(https://wallpaperaccess.com/full/6226636.jpg);
+  background-position: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background > .container > .box {
+  width: 380px;
+  height: 480px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.background > .container > .box > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+.background > .container > .box > .icon {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.background > .container > .box > .icon > a {
+  margin-right: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+.background > .container > .box > .icon > a:hover {
+  font-size: 32px;
+}
+
+.background > .container > .box > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.background > .container > .box > form > input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-bottom: 18px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.background > .container > .box > form > .checkbox {
+  margin-bottom: 20px;
+}
+
+.background > .container > .box > form > .checkbox > label {
+  font-size: 16px;
+}
+
+.background > .container > .box > form > input[type=submit] {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 160px;
+  cursor: pointer;
+  margin: 0 auto;
 }
 
 header {
@@ -193,17 +281,22 @@ header > .container > .header-box > nav > ul > li > a:hover {
   font-size: 25px;
 }
 
-header > .container > .header-box > .register > button {
-  width: 130px;
+header > .container > .header-box > .register {
+  width: 150px;
   border: none;
   border-radius: 17px;
   padding: 10px;
   color: #FFFFFF;
   background-color: #2e2b2b;
   cursor: pointer;
+  text-align: center;
 }
 
-header > .container > .header-box > .register > button:hover {
+header > .container > .header-box > .register > a {
+  color: #FFFFFF;
+}
+
+header > .container > .header-box > .register:hover {
   -webkit-box-shadow: 2px 6px 35px 1px rgba(71, 56, 56, 0.52);
           box-shadow: 2px 6px 35px 1px rgba(71, 56, 56, 0.52);
   padding: 11px;

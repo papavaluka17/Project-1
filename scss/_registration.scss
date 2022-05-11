@@ -1,0 +1,81 @@
+.background {
+  background-image: url(https://wallpaperaccess.com/full/6226636.jpg);
+  background-position: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > .container {
+    @extend %container;
+
+    & > .box {
+      width: 380px;
+      height: 480px;
+      background-color: white;    
+      border-radius: 10px;
+      margin: 0 auto;
+      padding: 30px;
+
+      & > h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Oswald", sans-serif;
+      }
+
+      & > .icon {
+        text-align: center;
+        margin-bottom: 30px;
+
+        & > a {
+          margin-right: 20px;
+          font-size: 30px;
+          color: black;
+
+          &:hover {
+            font-size: 32px;
+          }
+        }
+      }
+
+      & > form {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 0 auto;
+
+        & > input {
+          border: none;
+          border-bottom: 1px solid black;
+          outline: none;
+          margin-bottom: 18px;
+          padding: 7px;
+          font-size: 14px;
+        }
+
+        & > .checkbox{
+          margin-bottom: 20px;
+          & > label{
+            font-size: 16px;
+          }
+        }
+
+        & > input[type=submit]{
+          border: 1px solid black;
+          border-radius: 15px;
+          width: 160px;
+          cursor: pointer;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
